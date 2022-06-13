@@ -2,7 +2,7 @@ import { def } from "@vue/shared";
 import Axios from "axios";
 import installer, { ElMessage } from "element-plus";
 
-const BASE_URL = ''; //请求接口url 如果不配置 则默认访问链接地址
+const BASE_URL = 'http://127.0.0.1:8000/'; //请求接口url 如果不配置 则默认访问链接地址
 const TIME_OUT = 10000; // 接口超时时间
 const instance = Axios.create({
 	baseURL: BASE_URL,
